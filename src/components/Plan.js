@@ -13,15 +13,20 @@ const Plan = () => {
           </p>
         </div>
         <div className="grid md:grid-cols-2">
-          <div className="bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl">
-            <span>Standard</span>
+          <div className="bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative">
+            <span className="uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm">
+              Standard
+            </span>
             <div>
-              <p>
-                $50<span>/mo</span>
+              <p className="text-6xl font-bold py-4 flex">
+                $50
+                <span className="text-xl text-slate-500 flex flex-col justify-end">
+                  /mo
+                </span>
               </p>
             </div>
-            <p>12 Months Cover</p>
-            <div>
+            <p className="text-2xl py-8 text-slate-500">12 Months Cover</p>
+            <div className="text-lg">
               <p>
                 Untill the next new model comes in, phones today at least stick
                 around in our lives for a year, if not more. That's why our
