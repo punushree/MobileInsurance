@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import Form from "./Form";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -7,12 +8,12 @@ const Navbar = () => {
   const navHandleClick = () => setNav(!nav);
 
   return (
-    <div className="w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadlow-lg">
+    <div className="w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg">
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
           <div className="flex flex-col">
             <h1 className="text-3xl font-bold mr-4 sm:text-4xl">
-              Mobile Insurance
+              Mobo Insurance
             </h1>
             <h2 className="text-sm sm:text-xs">Powered by BugendaiTech</h2>
           </div>
