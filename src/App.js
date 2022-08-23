@@ -16,7 +16,7 @@ function App() {
       <Support />
       <AllInOneMobileInsuranceCover />
       <Plan />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

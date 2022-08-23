@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Form from "./Form";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -18,9 +19,40 @@ const Navbar = () => {
             <h2 className="text-sm sm:text-xs">Powered by BugendaiTech</h2>
           </div>
           <ul className="hidden md:flex">
-            <li>Home</li>
-            <li>About</li>
-            <li>Support</li>
+            <li>
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={500}
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-190}
+                duration={500}
+              >
+                About
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to="support"
+                spy={true}
+                smooth={true}
+                offset={-40}
+                duration={500}
+              >
+                Support
+              </Link>
+            </li>
             <li>Claim</li>
           </ul>
         </div>
