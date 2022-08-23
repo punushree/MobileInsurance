@@ -5,7 +5,7 @@ import supportImg from "../assets/support.png";
 
 const Support = () => {
   return (
-    <div name="support" className="w-full mt-24">
+    <div data-aos="fade-up" name="support" className="w-full mt-24">
       <div className="w-full h-[400px] bg-gray-900/90 absolute">
         <img
           className="w-full h-full object-cover mix-blend-overlay"
@@ -18,7 +18,7 @@ const Support = () => {
             Support
           </h2>
           <h3 className="text-5xl font-bold py-6 text-center">
-            Ask the doubts
+            Ask Your Doubts
           </h3>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black">

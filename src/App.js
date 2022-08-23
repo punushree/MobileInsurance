@@ -6,16 +6,16 @@ import Footer from "./components/Footer";
 import Form from "./components/Form";
 import AllInOneMobileInsuranceCover from "./components/AllInOneMobileInsuranceCover";
 import Plan from "./components/Plan";
-
+import ClipLoader from "react-spinners/ClipLoader";
 function App() {
   return (
     <>
       <Header />
-      {/* <Form /> */}
       <About />
       <Support />
       <AllInOneMobileInsuranceCover />
       <Plan />
+      <Form />
       <Footer />
     </>
   );
