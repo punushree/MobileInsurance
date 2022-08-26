@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Mobile Insurance
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+'Mobile Insurance' is a React JS web app made with TailwindCSS which is newly a CSS framework. (https://tailwindcss.com/docs/guides/create-react-app)
 
-In the project directory, you can run:
+• Used react-scroll library for scrolling down to the component whenever we click on any of the navbar link. (https://www.npmjs.com/package/react-scroll)
+• Used Animate On Scroll (AOS) library when scrolling down from top to bottom there will be fade up animation on each components renders on the screen. (https://michalsnik.github.io/aos/)
+• Used React Toastify library whenever we click on submit button on form, will be getting alert saying 'Submitted Successfully'. (https://www.npmjs.com/package/react-toastify)
+• Made fully responsive for small and medium screens (Shared the screenshots for the same below).
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/89204190/186477819-fee9ed42-0c84-4c9a-bee2-9ffb03bebf4a.png">
 
-### `npm test`
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/89204190/186477946-66ea2bfc-4f94-49b2-94bc-79b527eee234.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/89204190/186478122-d88fde77-25e1-45dc-9353-d78a0f9f9c77.png">
 
-### `npm run build`
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/89204190/186478218-1ef2f8ce-71e3-4dfe-982d-3087a491f691.png">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/89204190/186478329-e27c81b5-10c8-48fa-95e7-3a98e77662a5.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/89204190/186478457-d8d6b225-ef99-478f-a06c-6fc1a002b822.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/89204190/186478542-21604c93-8c93-4e33-9542-4383dab69987.png">
 
-### `npm run eject`
+<img width="364" alt="image" src="https://user-images.githubusercontent.com/89204190/186478672-3f1f2129-6461-4a78-b078-0aa9159d83b2.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="370" alt="image" src="https://user-images.githubusercontent.com/89204190/186478744-04351ac3-5dc2-4621-bcfd-6ea7fb2c136e.png">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="374" alt="image" src="https://user-images.githubusercontent.com/89204190/186478900-ad9794e6-656b-4de4-8e0a-6c60bb7c549f.png">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="375" alt="image" src="https://user-images.githubusercontent.com/89204190/186479029-71a2d957-ec6a-4416-b3e5-1339b7a2c05f.png">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img width="374" alt="image" src="https://user-images.githubusercontent.com/89204190/186479118-50d262b4-46e1-4c45-b55a-1c4ec536e75f.png">
 
-## Learn More
+<img width="375" alt="image" src="https://user-images.githubusercontent.com/89204190/186479231-571da3ab-4275-452e-b31c-0f5aeba051c3.png">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="373" alt="image" src="https://user-images.githubusercontent.com/89204190/186479319-ac92f451-35d7-48c3-b439-5465128ceaf9.png">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="373" alt="image" src="https://user-images.githubusercontent.com/89204190/186479396-e4d12bdd-84a1-4b90-9d28-f0d661691b31.png">
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Project Video
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://user-images.githubusercontent.com/89204190/186372210-b0efcbe3-93dc-4fd7-a404-5db131b2aca9.mp4

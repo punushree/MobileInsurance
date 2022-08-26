@@ -2,7 +2,7 @@ import React from "react";
 
 const Plan = () => {
   return (
-    <div className="w-full text-white my-24">
+    <div data-aos="fade-up" className="w-full text-white my-24">
       <div className="w-full h-[450px] bg-slate-900 absolute mix-blend-overlay"></div>
       <div className="max-w-[1240px] mx-auto py-12">
         <div className="text-center py-8 text-slate-300">

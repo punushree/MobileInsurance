@@ -11,11 +11,11 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Form /> */}
       <About />
       <Support />
       <AllInOneMobileInsuranceCover />
       <Plan />
+      <Form />
       <Footer />
     </>
   );
